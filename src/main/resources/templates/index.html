@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>PorscheInformatik</title>
-    <link rel="stylesheet" th:href="@{/styles.css}" />
+    <link th:href="@{../style.css}" rel="stylesheet">
 </head>
 <body>
 <header>
-    <h1>Hergestellt von Csaba Vadasz (Csaba79-coder)</h1>
+    <h1>Hergestellt von Csaba Vadasz:</h1>
 </header>
 <main>
     <form id="index" class="form_class">
-
+        <h2>
+            <span th:text="'Hello, mein Ziel ist es, ein guter Entwickler zu sein! ' + ${love}"></span>
+        </h2>
     </form>
 </main>
 <footer>
